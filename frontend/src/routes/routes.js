@@ -9,6 +9,7 @@ import Terms from "../pages/Terms";
 import Services from "../pages/Services";
 import AboutUs from "../pages/AboutUs";
 import CaseStudies from "../pages/CaseStudies";
+import Blogs from "../pages/Blogs";
 export const publicRoutes = [
   // Error Pages
 
@@ -26,4 +27,5 @@ export const publicRoutes = [
   { path: "/services", element: Services },
   { path: "/about", element: AboutUs },
   { path: "/case-studies", element: CaseStudies },
+  { path: "/blogs", element: Blogs },
 ];
