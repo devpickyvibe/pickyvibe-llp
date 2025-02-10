@@ -22,7 +22,7 @@ const Home = () => {
       <Testimonials />
       <BlogArea />
       <SubscribeArea />
-      <Footer />
+
       <div id="anywhere-home" class=""></div>
     </>
   );

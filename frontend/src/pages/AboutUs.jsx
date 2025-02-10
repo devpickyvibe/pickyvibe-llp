@@ -3,37 +3,12 @@ import BrandArea from "../components/About/BrandArea";
 import WorkingProgress from "../components/About/WorkingProgress";
 import CounterUp from "../components/About/CounterUp";
 import OurService from "../components/About/OurService";
+import AboutBanner from "../components/About/AboutBanner";
 
 const AboutUs = () => {
   return (
     <>
-      <div class="about-area-banner-inner rts-section-gap">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="about-main-wrapper">
-                <h1 class="title split-collab">
-                  A full-service <br /> <span>creative digital</span> <br />{" "}
-                  agency
-                </h1>
-              </div>
-            </div>
-            <div class="col-lg-5 offset-lg-1">
-              <div class="banner-about-right">
-                <p class="disc">
-                  Fluxi focus on helping you to make useful content more
-                  accessible with an ultimate goal for a good sharing profit as
-                  a content creator.
-                </p>
-                <p class="disc">
-                  We see more and more ads in search results and not enough care
-                  for the people who are actually creating content.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <AboutBanner />
 
       <div class="about-large-image-area">
         <div class="container">
@@ -66,6 +41,208 @@ const AboutUs = () => {
       <WorkingProgress />
       <CounterUp />
       <OurService />
+
+      <div class="rts-team-area rts-section-gap2 about">
+        <div class="container">
+          <div class="row">
+            <div class="title-style-one-center">
+              <span class="pre skew-up">Our team</span>
+              <h2 class="title skew-up">
+                An experienced and <br />
+                elite team
+              </h2>
+            </div>
+          </div>
+          <div class="row g-5 pt--60">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/09.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Kevin Smith</h6>
+                  <span class="desig">Founder, CEO of Fluxi</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/10.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Ahmed Solary</h6>
+                  <span class="desig">Head of Digital Marketing</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/11.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Antonio Martin</h6>
+                  <span class="desig">UI/UX Designer</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/12.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Stefan Brice</h6>
+                  <span class="desig">Senior Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/13.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Antonio Martin</h6>
+                  <span class="desig">UI/UX Designer</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/14.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Stefan Brice</h6>
+                  <span class="desig">Senior Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/15.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Kevin Smith</h6>
+                  <span class="desig">Founder, CEO of Fluxi</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="single-team-area-start">
+                <a href="#" class="thumbnail">
+                  <img src="assets/images/team/16.png" alt="team" />
+                </a>
+                <div class="inner-content">
+                  <h6 class="title">Ahmed Solary</h6>
+                  <span class="desig">Head of Digital Marketing</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shape-area">
+          <img src="assets/images/service/shape/04.png" alt="" class="one" />
+          <img src="assets/images/service/shape/13.png" alt="" class="two" />
+          <img src="assets/images/service/shape/06.png" alt="" class="three" />
+          <img src="assets/images/service/shape/14.png" alt="" class="four" />
+        </div>
+      </div>
+
+      <div class="rts-section-gap rts-blog-area-one style-seven about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="title-style-one-center">
+                <h2 class="title skew-up">Recent articles from blog</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row g-48 mt--0">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-blog-area-style-one eight-area text-center">
+                <a href="blog-details.html" class="thumbnail">
+                  <img src="assets/images/blog/01.png" alt="blog-image" />
+                </a>
+                <div class="inner-content-wrapper">
+                  <div class="bottom-area mb--25">
+                    <span class="admin">Amir Nisi</span>
+                    <span class="date">• 25 October, 2023</span>
+                  </div>
+                  <a href="blog-details.html">
+                    <h6 class="title mb--20">
+                      Which tool seems the best for content writing strategy?
+                    </h6>
+                  </a>
+                  <a href="blog-details.html" class="btn-readmore-inner">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-blog-area-style-one eight-area">
+                <a href="blog-details.html" class="thumbnail">
+                  <img src="assets/images/blog/02.png" alt="blog-image" />
+                </a>
+                <div class="inner-content-wrapper">
+                  <div class="bottom-area mb--25">
+                    <span class="admin">Amir Nisi</span>
+                    <span class="date">• 25 October, 2023</span>
+                  </div>
+                  <a href="blog-details.html">
+                    <h6 class="title mb--20">
+                      Getting eyeballs on what you write for a business is
+                      tricky
+                    </h6>
+                  </a>
+                  <a href="blog-details.html" class="btn-readmore-inner">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-blog-area-style-one eight-area">
+                <a href="blog-details.html" class="thumbnail">
+                  <img src="assets/images/blog/03.png" alt="blog-image" />
+                </a>
+                <div class="inner-content-wrapper">
+                  <div class="bottom-area mb--25">
+                    <span class="admin">Amir Nisi</span>
+                    <span class="date">• 25 October, 2023</span>
+                  </div>
+                  <a href="blog-details.html">
+                    <h6 class="title mb--20">
+                      More than just buzzwords for marketing concepts of SEO
+                    </h6>
+                  </a>
+                  <a href="blog-details.html" class="btn-readmore-inner">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="blog-btn-area mt--50">
+              <a
+                href="blog.html"
+                class="rts-btn btn-primary-4-border arrow-rotate inner m-auto"
+              >
+                See More Posts <i class="fa-light fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="shape-area">
+          <img class="one" src="assets/images/blog/shape/01.png" alt="shape" />
+          <img class="two" src="assets/images/blog/shape/02.png" alt="shape" />
+        </div>
+      </div>
     </>
   );
 };

@@ -1,5 +1,8 @@
 import React from "react";
-
+import shape1 from "../../assets/images/about/shape/01.png";
+import shape2 from "../../assets/images/about/shape/02.png";
+import shape3 from "../../assets/images/about/shape/03.png";
+import shape4 from "../../assets/images/about/shape/04.png";
 const AboutArea = () => {
   return (
     <div class="rts-about-area rts-section-gap">
@@ -62,26 +65,10 @@ const AboutArea = () => {
                 content.
               </p>
               <div class="shape-area-img">
-                <img
-                  class="one"
-                  src="assets/images/about/shape/01.png"
-                  alt="shape"
-                />
-                <img
-                  class="two"
-                  src="assets/images/about/shape/02.png"
-                  alt="shape"
-                />
-                <img
-                  class="three"
-                  src="assets/images/about/shape/03.png"
-                  alt="shape"
-                />
-                <img
-                  class="four"
-                  src="assets/images/about/shape/04.png"
-                  alt="shape"
-                />
+                <img class="one" src={shape1} alt="shape" />
+                <img class="two" src={shape2} alt="shape" />
+                <img class="three" src={shape3} alt="shape" />
+                <img class="four" src={shape4} alt="shape" />
               </div>
             </div>
           </div>

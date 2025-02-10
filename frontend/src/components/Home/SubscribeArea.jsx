@@ -1,4 +1,9 @@
 import React from "react";
+import { FaGlobe } from "react-icons/fa";
+import shape1 from "../../assets/images/subscribtion/shape/01.png";
+import shape2 from "../../assets/images/subscribtion/shape/02.png";
+import shape3 from "../../assets/images/subscribtion/shape/03.png";
+import shape4 from "../../assets/images/subscribtion/shape/04.png";
 
 const SubscribeArea = () => {
   return (
@@ -19,31 +24,15 @@ const SubscribeArea = () => {
                 </p>
                 <form action="#">
                   <input type="text" placeholder="yourwebsite.com" required />
-                  <i class="fa-light fa-globe"></i>
+                  <FaGlobe class="fa-light fa-globe" />
                   <button class="rts-btn btn-primary">Start a SEO Audit</button>
                 </form>
               </div>
               <div class="shape-area">
-                <img
-                  class="one"
-                  src="assets/images/subscribtion/shape/01.png"
-                  alt="subscribtion"
-                />
-                <img
-                  class="two"
-                  src="assets/images/subscribtion/shape/02.png"
-                  alt="subscribtion"
-                />
-                <img
-                  class="three"
-                  src="assets/images/subscribtion/shape/03.png"
-                  alt="subscribtion"
-                />
-                <img
-                  class="four"
-                  src="assets/images/subscribtion/shape/04.png"
-                  alt="subscribtion"
-                />
+                <img class="one" src={shape1} alt="subscribtion" />
+                <img class="two" src={shape2} alt="subscribtion" />
+                <img class="three" src={shape3} alt="subscribtion" />
+                <img class="four" src={shape4} alt="subscribtion" />
               </div>
             </div>
           </div>

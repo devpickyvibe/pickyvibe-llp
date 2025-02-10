@@ -1,5 +1,7 @@
 import React from "react";
-
+import { FaCheckCircle } from "react-icons/fa";
+import pricing1 from "../../assets/images/pricing/01.png";
+import pricing2 from "../../assets/images/pricing/02.png";
 const PricingArea = () => {
   return (
     <div class="rts-section-gap rts-pricing-area-one bg_white">
@@ -44,17 +46,18 @@ const PricingArea = () => {
                 </p>
                 <div class="check-content-wrapper">
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
+                    <i></i>
                     <p>Best keyword strategy</p>
                   </div>
 
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>Competitors analysis & reports</p>
                   </div>
 
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>technical site audit checklist</p>
                   </div>
                 </div>
@@ -92,21 +95,21 @@ const PricingArea = () => {
                 </p>
                 <div class="check-content-wrapper">
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>Best keyword strategy</p>
                   </div>
 
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>Competitors analysis & reports</p>
                   </div>
 
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>technical site audit checklist</p>
                   </div>
                 </div>
-                <a href="service-single.html" class="rts-btn btn-primary">
+                <a href="/service-single" class="rts-btn btn-primary">
                   Get started
                 </a>
               </div>
@@ -140,17 +143,17 @@ const PricingArea = () => {
                 </p>
                 <div class="check-content-wrapper">
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>Best keyword strategy</p>
                   </div>
 
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>Competitors analysis & reports</p>
                   </div>
 
                   <div class="single-check-area">
-                    <i class="fa-light fa-circle-check"></i>
+                    <FaCheckCircle class="fa-light fa-circle-check" />
                     <p>technical site audit checklist</p>
                   </div>
                 </div>
@@ -163,8 +166,8 @@ const PricingArea = () => {
         </div>
       </div>
       <div class="shape-radious-image">
-        <img src="assets/images/pricing/01.png" alt="marketing" class="img-1" />
-        <img src="assets/images/pricing/02.png" alt="marketing" class="img-2" />
+        <img src={pricing1} alt="marketing" class="img-1" />
+        <img src={pricing2} alt="marketing" class="img-2" />
       </div>
     </div>
   );

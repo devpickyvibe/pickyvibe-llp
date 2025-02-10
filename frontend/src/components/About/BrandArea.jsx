@@ -11,27 +11,27 @@ const BrandArea = () => {
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/01.svg" alt="" />
+                      <img src="../../assets/images/brand/01.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/02.svg" alt="" />
+                      <img src="../../assets/images/brand/02.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/03.svg" alt="" />
+                      <img src="../../assets/images/brand/03.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/04.svg" alt="" />
+                      <img src="../../assets/images/brand/04.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/05.svg" alt="" />
+                      <img src="../../assets/images/brand/05.svg" alt="" />
                     </a>
                   </div>
                 </div>
@@ -41,27 +41,27 @@ const BrandArea = () => {
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/21.svg" alt="" />
+                      <img src="../../assets/images/brand/21.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/22.svg" alt="" />
+                      <img src="../../assets/images/brand/22.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/23.svg" alt="" />
+                      <img src="../../assets/images/brand/23.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/24.svg" alt="" />
+                      <img src="../../assets/images/brand/24.svg" alt="" />
                     </a>
                   </div>
                   <div class="swiper-slide">
                     <a href="#">
-                      <img src="assets/images/brand/21.svg" alt="" />
+                      <img src="../../assets/images/brand/21.svg" alt="" />
                     </a>
                   </div>
                 </div>

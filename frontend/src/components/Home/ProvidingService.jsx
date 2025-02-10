@@ -1,5 +1,14 @@
 import React from "react";
-
+import service1 from "../../assets/images/service/01.jpg";
+import service3 from "../../assets/images/service/03.png";
+import service2 from "../../assets/images/service/02.jpg";
+import service7 from "../../assets/images/service/07.png";
+import shape1 from "../../assets/images/service/shape/01.png";
+import shape2 from "../../assets/images/service/shape/02.png";
+import shape3 from "../../assets/images/service/shape/03.png";
+import shape4 from "../../assets/images/service/shape/04.png";
+import shape5 from "../../assets/images/service/shape/05.png";
+import shape6 from "../../assets/images/service/shape/06.png";
 const ProvidingService = () => {
   return (
     <div class="providing-service-area-start-one rts-section-gap">
@@ -8,10 +17,10 @@ const ProvidingService = () => {
           <div class="col-lg-6">
             <div class="image-area-service-1">
               <div class="thumbnail-service-1">
-                <img src="assets/images/service/01.jpg" alt="service-area" />
+                <img src={service1} alt="service-area" />
               </div>
               <img
-                src="assets/images/service/03.png"
+                src={service3}
                 alt="service"
                 class="images-2 small"
                 width="286"
@@ -28,7 +37,7 @@ const ProvidingService = () => {
                 that ranks, as well as descriptive metadata and meaningful image
                 alt text.
               </p>
-              <a href="service-single.html" class="under-line-btn">
+              <a href="/service-single.html" class="under-line-btn">
                 Get more traffic
               </a>
             </div>
@@ -45,7 +54,7 @@ const ProvidingService = () => {
                 point people to your website, like press releases, guest blogs,
                 and paid search engine ads.
               </p>
-              <a href="service-single.html" class="under-line-btn">
+              <a href="/service-single.html" class="under-line-btn">
                 Get more traffic
               </a>
             </div>
@@ -53,10 +62,10 @@ const ProvidingService = () => {
           <div class="col-lg-6">
             <div class="image-area-service-1  bottom-1">
               <div class="thumbnail-service-1">
-                <img src="assets/images/service/02.jpg" alt="service-area" />
+                <img src={service2} alt="service-area" />
               </div>
               <img
-                src="assets/images/service/07.png"
+                src={service7}
                 alt="service"
                 class="images-2 small"
                 width="200"
@@ -66,36 +75,12 @@ const ProvidingService = () => {
         </div>
       </div>
       <div class="shape-area">
-        <img
-          class="one"
-          src="assets/images/service/shape/01.png"
-          alt="Service_Shave"
-        />
-        <img
-          class="two"
-          src="assets/images/service/shape/02.png"
-          alt="Service_Shave"
-        />
-        <img
-          class="three"
-          src="assets/images/service/shape/03.png"
-          alt="Service_Shave"
-        />
-        <img
-          class="four"
-          src="assets/images/service/shape/04.png"
-          alt="Service_Shave"
-        />
-        <img
-          class="five"
-          src="assets/images/service/shape/05.png"
-          alt="Service_Shave"
-        />
-        <img
-          class="six"
-          src="assets/images/service/shape/06.png"
-          alt="Service_Shave"
-        />
+        <img class="one" src={shape1} alt="Service_Shave" />
+        <img class="two" src={shape2} alt="Service_Shave" />
+        <img class="three" src={shape3} alt="Service_Shave" />
+        <img class="four" src={shape4} alt="Service_Shave" />
+        <img class="five" src={shape5} alt="Service_Shave" />
+        <img class="six" src={shape6} alt="Service_Shave" />
       </div>
     </div>
   );

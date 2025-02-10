@@ -1,5 +1,9 @@
 import React from "react";
-
+import blog1 from "../../assets/images/blog/01.png";
+import blog2 from "../../assets/images/blog/02.png";
+import shape1 from "../../assets/images/blog/shape/01.png";
+import shape2 from "../../assets/images/blog/shape/02.png";
+import shape3 from "../../assets/images/blog/shape/03.png";
 const BlogArea = () => {
   return (
     <div class="rts-section-gap rts-blog-area-one">
@@ -17,11 +21,11 @@ const BlogArea = () => {
         <div class="row g-48 mt--0">
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
             <div class="single-blog-area-style-one">
-              <a href="blog-details.html" class="thumbnail">
-                <img src="assets/images/blog/01.png" alt="blog-image" />
+              <a href="/blog-details" class="thumbnail">
+                <img src={blog1} alt="blog-image" />
               </a>
               <div class="inner-content-wrapper">
-                <a href="blog-details.html">
+                <a href="/blog-details">
                   <h6 class="title">
                     Which tool seems the best for content writing strategy?
                   </h6>
@@ -35,11 +39,11 @@ const BlogArea = () => {
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
             <div class="single-blog-area-style-one">
-              <a href="blog-details.html" class="thumbnail">
-                <img src="assets/images/blog/02.png" alt="blog-image" />
+              <a href="/blog-details" class="thumbnail">
+                <img src={blog2} alt="blog-image" />
               </a>
               <div class="inner-content-wrapper">
-                <a href="blog-details.html">
+                <a href="/blog-details">
                   <h6 class="title">
                     Getting eyeballs on what you write for a business is tricky
                   </h6>
@@ -53,11 +57,11 @@ const BlogArea = () => {
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
             <div class="single-blog-area-style-one">
-              <a href="blog-details.html" class="thumbnail">
-                <img src="assets/images/blog/03.png" alt="blog-image" />
+              <a href="/blog-details" class="thumbnail">
+                <img src={blog1} alt="blog-image" />
               </a>
               <div class="inner-content-wrapper">
-                <a href="blog-details.html">
+                <a href="/blog-details">
                   <h6 class="title">
                     More than just buzzwords for marketing concepts of SEO
                   </h6>
@@ -71,16 +75,16 @@ const BlogArea = () => {
           </div>
 
           <div class="col-lg-12  text-center">
-            <a href="blog.html" class="rts-btn btn-primary text-center">
+            <a href="/blogs" class="rts-btn btn-primary text-center">
               View Insights
             </a>
           </div>
         </div>
       </div>
       <div class="shape-area">
-        <img class="one" src="assets/images/blog/shape/01.png" alt="shape" />
-        <img class="two" src="assets/images/blog/shape/02.png" alt="shape" />
-        <img class="three" src="assets/images/blog/shape/03.png" alt="shape" />
+        <img class="one" src={shape1} alt="shape" />
+        <img class="two" src={shape2} alt="shape" />
+        <img class="three" src={shape3} alt="shape" />
       </div>
     </div>
   );

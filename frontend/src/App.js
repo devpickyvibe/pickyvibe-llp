@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
-import "./App.css";
+
 import Header from "./components/Common/Header";
 import Footer from "./components/Common/Footer";
 import Router from "./routes/Router";
 import { BrowserRouter } from "react-router-dom";
 import Loader from "./components/Common/Loader";
+import { FaLightbulb, FaMoon, FaSun } from "react-icons/fa";
+
 function App() {
   return (
     <>
@@ -234,17 +236,13 @@ function App() {
           </div>
         </div>
 
-        <div class="loader-wrapper">
-          <div class="loader"></div>
-          <div class="loader-section section-left"></div>
-          <div class="loader-section section-right"></div>
-        </div>
+        <Loader />
 
         <div class="rts-switcher rts-theme-mode">
           <div class="rts-darkmode">
             <a id="rts-data-toggle" class="rts-dark-light">
-              <i class="rts-go-dark fal fa-moon"></i>
-              <i class="rts-go-light fa-light fa-sun-bright"></i>
+              <FaMoon class="rts-go-dark fal fa-moon" />
+              <FaSun class="rts-go-light fa-light fa-sun-bright" />
             </a>
           </div>
         </div>
